@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.navbar-container {
+  padding-top: 10px;
+}
+
+/* img {
+  margin-left: 15px;
+} */
+
+.first-col {
+  padding-top: 10px;
+  background-color: aqua;
+}
+.first-col img {
+  margin-left: 15px;
+  margin-top: -5px;
+  padding-bottom: 5px;
+}
+.first-col :nth-child(3) {
+  font-family: fantasy;
+  font-size: x-large;
+  font-weight: lighter;
+}
+.span-gh {
+  font-size: small;
+  position: relative;
+  bottom: 20px;
+  font-family: monospace;
+}
+
+.second-col{
+  background-color: aquamarine;
+}
+.second-col input {
+  width: 62%;
+  border-color: black;
+  border-width: 1px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 15px;
+  margin-left: 45px;
+}
+
+/* .btn {
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+.microphone-span {
+  margin-left: 20px;
+  border-radius: 70px;
+  border: 1px solid black;
+  padding: 10px 7px 10px 7px;
+}
+
+/* .microphone-img {
+  
+} */
+
+.third-col {
+  padding-top: 10px;
+  margin-right: 50px;
+}
+/* .third-col img {
+  margin-right: 10px;
+} */
+.third-col-span {
+  border: 0px solid black;
+  border-radius: 25px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  margin-top: -7px;
+  margin-left: 30px;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: rgb(19, 133, 19);
+  color: aliceblue;
+}
+.third-col-nav img {
+  padding-left: 25px;
+}
+
+/* .btn {
+  border-radius: 0 20px 20px 0;
+  border-color: black;
+  background-color: transparent;
+} */
+
+
+/* Add this to TopNav.css */
+.youtube-search-btn {
+  background-color: #f8f8f8;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin-left: -2px;
+}
+
+.youtube-search-btn:hover {
+  background-color: #e8e8e8;
+}
+
+.youtube-search-btn:focus {
+  outline: none;
+}
